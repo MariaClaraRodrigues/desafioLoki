@@ -1,0 +1,263 @@
+@media (min-width: 700px) and (max-width: 900px) {
+    header.header {
+        margin: 30px 0 50px 0;
+    }
+
+    .film-description {
+        width: 340px;
+        font-size: 19px;
+        margin: 5px 0 20px 0;
+    }
+
+    .time, .stars {
+        width: 30px;
+        height: 30px;
+    }
+
+    .p-time,
+    .year {
+        font-size: 16px;
+    }
+
+    .div-stars, .year {
+        margin-left: 25px;
+    }
+}
+
+@media (min-width: 530px) and (max-width: 700px) {
+    header.header {
+        margin: 30px 0 50px 0;
+    }
+
+    .img-card {
+        background: url(../img/capa.svg) center center no-repeat;
+        background-size: cover;
+        width: 145px;
+        border-radius: 20px;
+        margin-left: 15px;
+    }
+
+    .content {
+        margin-left: 30px;
+    }
+
+    header>p {
+        font-size: 18px;
+        margin-bottom: 32px;
+    }
+
+    #title-loki {
+        font-size: 64px;
+    }
+
+    .film-description {
+        width: 340px;
+        font-size: 19px;
+        margin: 5px 0 20px 0;
+    }
+
+    .div-other-infos {
+        width: 330px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 30px 0;
+    }
+
+    .time, .stars {
+        width: 30px;
+        height: 30px;
+    }
+
+    .p-time,
+    .year {
+        font-size: 16px;
+    }
+
+    .div-stars {
+        margin: 10px 0 10px 0;
+    }
+
+    .year {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        margin-left: 0px;
+    }
+
+    .btns {
+        width: 300px;
+    }
+
+    .btn {
+        font-size: 20px;
+        height: 50px;
+    }
+
+    .btn-watch,
+    .btn-trailer {
+        width: 210px;
+        margin-bottom: 10px;
+    }
+
+    .btn-trailer {
+        margin-left: 1px;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 530px) {
+    .img-card {
+        display: none;
+    }
+
+    header.header {
+        margin: 45px 0 50px 0;
+    }
+
+    .content {
+        margin-left: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .film-description {
+        width: 350px;
+        font-size: 20px;
+        margin: 15px 0 20px 0;
+    }
+
+    .div-other-infos {
+        display: flex;
+        flex-direction: row;
+        margin: 0 0 30px 0;
+    }
+
+    .time,
+    .stars {
+        width: 25px;
+        height: 25px;
+    }
+
+    .p-time,
+    .year {
+        font-size: 20px;
+    }
+
+    .div-stars, .year {
+        margin-left: 25px;
+    }
+
+    .btns {
+        width: 280px;
+    }
+
+    .btn {
+        font-size: 20px;
+        height: 50px;
+    }
+
+    .btn-watch,
+    .btn-trailer {
+        width: 250px;
+        margin-bottom: 10px;
+    }
+
+    .btn-trailer {
+        margin-left: 0px;
+    }
+}
+
+@media (min-width: 280px) and (max-width: 360px) {
+    .img-bg {
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/loki-bg-responsive.svg) center center no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 634px;
+    }
+
+    .img-card {
+        display: none;
+    }
+
+    header.header {
+        margin: 60px 0 298px 0;
+    }
+
+    header>p {
+        font-size: 18px;
+        margin-bottom: 32px;
+    }
+
+    #title-loki {
+        font-size: 64px;
+    }
+
+    .div-other-infos {
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 30px 10px;
+    }
+
+    .container {
+        background: #19191F;
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    .content {
+        margin-left: 10px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .film-description {
+        width: 270px;
+        font-size: 14px;
+        margin: 35px 0;
+    }
+
+    .time, .stars {
+        width: 20px;
+        height: 20px;
+    }
+
+    .p-time,
+    .year {
+        font-size: 16px;
+    }
+
+    .div-stars {
+        margin: 10px 0 10px 0;
+    }
+
+    .year {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        margin-left: 0px;
+    }
+
+    .btns {
+        width: 280px;
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
+    }
+
+    .btn {
+        font-size: 14px;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn-watch,
+    .btn-trailer {
+        width: 150px;
+        margin-bottom: 10px;
+    }
+
+    .btn-trailer {
+        margin-left: 0px;
+    }
+}
